@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>TRACK MASTER#</title>
+	<h2>welcome to the excid and amzming world </h2>
+  </head>
+  <body>
+    <div class="container">
+      <h1>begin</h1>
+      
+      
+	  <div id="trackQueston">
+	  <h3>Please enter your information below</h3>
+        <form id="inputBox"		>
+          <div class="form-group">
+            <label for="studentName">Name:</label>
+            <input id="studentName" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input id="email" class="form-control" type="text">
+          </div>
+		  
+				<p>Gender</p>
+				<select class="form-control" id="gender"  >
+				  <option>Male</option>
+				  <option>Female</option>
+				</select><br>
+				
+				<p>please choose your location</p>
+				<select class="form-control" id="local">
+				  <option>seattle</option>
+				  <option>portland</option>
+				</select>
+
+				  
+							<div class="question_1">
+							<h4>Q1: Do you have any experience in coding</h4>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="answerForQ1" value="0" >
+								NO! I am zero  
+							  </label>
+							</div>
+							
+							<div class="radio">
+							  <label>
+								<input type="radio" name="answerForQ1" value="1" >
+								Less than one year
+							  </label>
+							</div>
+							
+							<div class="radio">
+							  <label>
+								<input type="radio" name="answerForQ1" value="3">
+								more than one year, have some experience
+							  </label>
+							</div>
+							
+							<div class="radio">
+							  <label>
+								<input type="radio" name="answerForQ1" value="3">
+								more than 2 years, Entry level
+							  </label>
+							</div>
+				</div>
+				<!--question 2,-->
+				
+				<div class="question_2"><p>Q1: why do you want to learn coding!</p>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="answerForQ2" value="4" >
+								I WANT TO LEARN MORE ABOUT JAVA 
+							  </label>
+							</div>
+							
+							<div class="radio">
+							  <label>
+								<input type="radio" name="answerForQ2" value="5" >
+								I WANT TO LEARN MORE ABOUT C#
+							  </label>
+							</div>
+							
+							<div class="radio">
+							  <label>
+								<input type="radio" name="answerForQ2" value="6">
+								I WANT TO LEARN MORE ABOUT JS
+							  </label>
+							</div>
+				</div>
+				<!--question 3,-->
+				
+				<div class="question_3"><p>Q1: why do you want to learn coding!</p>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="answerForQ3" value="7" >
+								I WANT TO LEARN MORE ABOUT JAVA 
+							  </label>
+							</div>
+							
+							<div class="radio">
+							  <label>
+								<input type="radio" name="answerForQ3" value="8" >
+								I WANT TO LEARN MORE ABOUT C#
+							  </label>
+							</div>
+							
+							<div class="radio">
+							  <label>
+								<input type="radio" name="answerForQ3" value="9">
+								I WANT TO LEARN MORE ABOUT JS
+							  </label>
+							</div>
+				</div>
+				<!--question 4,-->
+				<div class="question_4"><p>Q1: why do you want to learn coding!</p>
+							<div class="radio">
+							  <label>
+								<input type="radio" name="answerForQ4" value="10" >
+								I WANT TO LEARN MORE ABOUT JAVA 
+							  </label>
+							</div>
+							
+							<div class="radio">
+							  <label>
+								<input type="radio" name="answerForQ4" value="11" >
+								I WANT TO LEARN MORE ABOUT C#
+							  </label>
+							</div>
+							
+							<div class="radio">
+							  <label>
+								<input type="radio" name="answerForQ4" value="12">
+								I WANT TO LEARN MORE ABOUT JS
+							  </label>
+							</div>
+				</div>
+				
+		  
+				
+		  
+		  
+          <button type="submit" id="subInfo" class="btn btn-warning">Enter Information</button>
+		  <button type="reset" class="btn btn-danger">Clear</button>
+      
+	  </form>
+      </div>
+	  
+			<div id="createdContact">
+				<span class="nameReturn"></span>
+				<p>Address: <span class="addressReturn"></span></p>
+				<p>Phone Number: <span class="phoneReturn"></span></p>
+				<p>E-mail: <span class="emailReturn"></span></p> 
+			</div>
+			
+			
+			
+				<div id="suggestion"><h2>suggestion</h2>
+							
+							Dear <span class="gender"></span><span class="nameReturn"></span>
+							Thank you for your time!<br>
+							<span class="jingyan"></span>you have some expersis in coding ,it is great!
+							As your answers,<span class="answer"></span>
+							the class in <span class ="local"></span> is in 
+							
+						
+
+							
+							<div id="su1">You chose mostly a's, you should definitely study C#!".</div>
+							<div id="su2">222</div>
+							<div id="su3">222</div>
+							<div id="su3">2222</div>
+				
+				</div>
+						
+						
+				
+			
+			
+    </div>
+  </body>
+</html>

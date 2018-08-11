@@ -1,25 +1,46 @@
+
+.container{
+	width: 1100px;
+}
 body
   {
-  background-color:#8FE0DB;
+  background-color:white;
   }
+  
+.form-control{
+	width: 210px;
+}
+
+p{
+	font-size: 15px;
+	 
+}
+  
+#footer1{
+	text-align:center;
+}
 
 }
 .hiddenInfo {
   display: none;
 }
 
-#suggestion{
-	 display: none;
-	
+#locationsettle,#locationportland{
+	font-family: yellow;
+	color:#33c2c3;
 }
- 
 
-#suggestionOfJava{
+
+#suggestion,#genderFemale,#locationsettle,
+#locationportland,
+#genderMale,#suggestionOfCsharp,
+#suggestionOfCss,#suggestionOfJava{
 	 display: none;
 }
-#suggestionOfCsharp{
-	 display: none;
-}
-#suggestionOfCss{
-	 display: none;
+
+footer {
+  position: relative;
+ 
+  
+	
 }

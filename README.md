@@ -15,12 +15,19 @@ daivd zhu-zhuleqiang@gmail.com
 
 Technologies Used
 Git
+
 Github
+
 HTML
+
 CSS
+
 Notepad++
+
 JavaScript
+
 Bootstrap
+
 jQuery
 
 

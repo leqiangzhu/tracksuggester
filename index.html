@@ -6,72 +6,79 @@
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>TRACK MASTER#</title>
+	<div id="logoImg">
+	<img src="img/epicodus-logo.png" width=10%>
+	</div>
+	</br>
+	<img src="img/font.jpg" width = "1500" >
+	
 	
   </head>
   <body>
     <div class="container">
 	  <div id="trackQueston">
-	  <h3>Please enter your information below</h3>
+		<h3>Track Suggester </h3>
+		 <p>If you’re looking to begin coding as a hobby, a new 
+		  career, or just to enhance </br>your current role, the first thing 
+		  you’ll have to do is decide which programming </br>language 
+		  you want to start with.</p>
+		  </br></br></br>
+		<h3>Please answer these questions</h3>
         <form id="inputBox"		>
           <div class="form-group">
-            <label for="studentName">Please Enter You Full Name:</label>
-            <input id="studentName" class="form-control" type="text">
+            <label for="studentName"><h5>Full Name:</h5></label>
+            <input id="studentName" class="form-control" type="text"  >
           </div>
 
-          <div class="form-group">
-            <label for="email">E-mail:</label>
+          <div class="form-group" id="emailBlock" width = "250" >
+            <label for="email"><h5>E-mail:</h5></label>
             <input id="email" class="form-control" type="text">
           </div>
 		  
-				<p>Gender</p>
-				<select class="form-control" id="gender"  >
-				  <option>Male</option>
-				  <option>Female</option>
+				<h5>Gender</h5>
+				<select class="form-control" id="gender" >
+				  <option	value="male">Male</option>
+				  <option	value="female">Female</option>
 				</select><br>
 				
-				<p>please choose your location</p>
+				<h5>Your location</h5>
 				<select class="form-control" id="local">
-				  <option>seattle</option>
-				  <option>portland</option>
+				  <option value="seattle">Seattle</option>
+				  <option value="portland">Portland</option>
 				</select>
+				</br>
 
 				  
-							<div class="question_1">
-							<h4>Q1: Do you have any experience in coding</h4>
+				<div class="question_1">
+							<h5>Q1: Do you have any experience in coding</h5>
 							<div class="radio">
 							  <label>
-								<input type="radio" name="answerForQ1" value="0" >
-								NO! I am zero  
+								<input type="radio" name="answerForQ1" value="0"  >
+								NO! I don't have any experience with Coding.  
 							  </label>
 							</div>
 							
 							<div class="radio">
 							  <label>
 								<input type="radio" name="answerForQ1" value="0" >
-								Less than one year
+								I have a little experience ,less than one year
 							  </label>
 							</div>
 							
 							<div class="radio">
 							  <label>
 								<input type="radio" name="answerForQ1" value="1">
-								more than one year, have some experience
+								I have more than one year experience,and I can do some programming!
 							  </label>
 							</div>
 							
-							<div class="radio">
-							  <label>
-								<input type="radio" name="answerForQ1" value="1">
-								more than 2 years, Entry level
-							  </label>
-							</div>
 							</div>
 				<!--question 2,-->
 				
-				<div class="question_2"><h4>Q2: why do you want to learn coding!</h4>
+				<div class="question_2"><h5>Q2: why do you want to learn coding!</h5>
 							<div class="radio">
 							  <label>
-								<input type="radio" name="answerForQ2" value="1"  >
+								<input type="radio" name="answerForQ2" value="1"   >
 								I want to build high-performance applications  
 							  </label>
 							</div>
@@ -85,55 +92,55 @@
 							
 							<div class="radio">
 							  <label>
-								<input type="radio" name="answerForQ2" value="3">
+								<input type="radio" name="answerForQ2" value="3"  >
 								Building interactive web applications. 	
 							  </label>
 							</div>
 				</div>
 				<!--question 3,-->
 				
-				<div class="question_3"><h4>Q3: why do you want to learn coding!</h4>
+				<div class="question_3"><h5>Q3: what type of your ineresting job want to be!</h5>
 							<div class="radio">
 							  <label>
 								<input type="radio" name="answerForQ3" value="1" >
-								I WANT TO LEARN MORE ABOUT JAVA 
+								I want to be an Android developer 
 							  </label>
 							</div>
 							
 							<div class="radio">
 							  <label>
-								<input type="radio" name="answerForQ3" value="2" >
-								I WANT TO LEARN MORE ABOUT C#
+								<input type="radio" name="answerForQ3" value="2"  >
+								I want to be a former engineer,I can make the web site look so nice
 							  </label>
 							</div>
 							
 							<div class="radio">
 							  <label>
 								<input type="radio" name="answerForQ3" value="3" >
-								I WANT TO LEARN MORE ABOUT JS
+								I want to be a back-end developer
 							  </label>
 							</div>
 				</div>
 				<!--question 4,-->
-				<div class="question_4"><h4>Q4: why do you want to learn coding!</h4>
+				<div class="question_4"><h5>Q4: which type company </h5>
 							<div class="radio">
 							  <label>
 								<input type="radio" name="answerForQ4" value="1" >
-								I WANT TO LEARN MORE ABOUT JAVA 
+								I want to work for a larger company on business software,  
 							  </label>
 							</div>
 							
 							<div class="radio">
 							  <label>
-								<input type="radio" name="answerForQ4" value="2" >
-								I WANT TO LEARN MORE ABOUT C#
+								<input type="radio" name="answerForQ4" value="2"  >
+								I like startups and smaller companies
 							  </label>
 							</div>
 							
 							<div class="radio">
 							  <label>
 								<input type="radio" name="answerForQ4" value="3">
-								I WANT TO LEARN MORE ABOUT JS
+								I am not sure!
 							  </label>
 							</div>
 				</div>
@@ -142,31 +149,83 @@
 		  <button type="reset" class="btn btn-danger">Clear</button>
       
 	  </form>
-      </div>			
+      </div>
+	  
 				
-			<div id="suggestion">
+		<div id="suggestion">
 			<h2>Welcome to the exceed and amazing world </h2>
-			Dear <span class="gender"></span><span class="nameReturn"></span>
+			<p>Dear <span id="genderMale">Mr.</span> <span id="genderFemale">Miss.</span> <span class="nameReturn"></span>
 			,Thank you for your time!<br>
 			<!--<span class="expersis"></span>you have some expersis in coding 
 			,it is great!--->
+			</p>
 			
-			</div>
 			
 	
 		<div id="suggestionOfJava">
-		  <p>We recommend that you learn Java.</p>
+		  <p>We recommend that you learn Java.</p></br>
+			<p>Java is also a favorite of enterprise companies, but its appeal is broader as well:
+			it's one of the most popular of all programming languages, and it's used in everything
+			from for high-performance processing to building Android user interfaces. Because Java 
+			has been very popular for a very long time and is used in so many applications, 
+			it is also a very high-demand language. If you're interested in working for an 
+			enterprise-level company, as an Android developer, 
+			or in high-performance applications, Java could be a good language to learn.</p>
 		</div>
 		<div id="suggestionOfCsharp">
-		  <p>We recommend that you learn C</p>
+		  <p>We recommend that you learn C&#35</p></br>
+			<P>C# is most popular among bigger established businesses, often for building internal software. 
+			Because it's been around for a long time and has the backing of Microsoft, it is one of the 
+			most in-demand languages in the job market. C# has also been going through a bit of a rebirth 
+			lately, with Microsoft open sourcing the language and surrounding platform, porting it to run 
+			on Mac and Linux, and incorporating many of the best features of other languages. 
+			If you like the idea of working for a larger company on business software, C# is a great choice.</P>
 		</div>
 		<div  id="suggestionOfCss">
-		  <p>We recommend that you start learning from CSS.</p>
+		  <p>We recommend that you start learning from CSS & HTML.</p></br>
+		  
+		  <p>People often begin by learning HTML and CSS.  
+		  These two languages are essential for creating static web pages. 
+		  HTML (Hypertext Markup Language) structures all the text, links, 
+		  and other content you see on a website. CSS is the language that 
+		  makes a web page look the way it does—color, layout, and other the visuals we call style.</p></br>
+
+			<p>Why not just start with HTML and CSS? You may not be interested 
+			in creating content for the Web. As I said earlier, 
+			you can do a lot with code, and the Web is just part of it. 
+			However, if you are interested making websites, 
+			definitely start with HTML and CSS.</p>
 		</div>
-	  
-							
-							
-							
-    </div>
+		
+				
+						<div id="locationsettle"><h4>Here is the infomation for Seattle</h4> 
+								<p>600 1st Ave, Seattle, WA 98104</p>
+						</div>
+						
+						<div id="locationportland"><h4>Here is the infomation for Portland</h4> 
+								<p>400 SW 6th Ave, Suite 800, Portland, OR 97204</p>
+						</div>
+	
+		
+		
+		
+		
+		
+	   <button id="tryAgain" class="btn btn-success">TRY AGAIN</button>
+	   </div>
+	</div>
+    </br></br></br></br></br></br></br></br></br>
   </body>
+   
+   <footer>
+   
+   <div id="footer1">
+	<a href="https://www.epicodus.com/"><img src="img/epicodus-logo.png" width=15% >
+	</a>
+	 <p>©2018 Epicodus, Inc.</p>
+	 </div>
+  </footer>
+  
+  
+  
 </html>

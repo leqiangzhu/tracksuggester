@@ -6,7 +6,7 @@ $(document).ready(function() {
 
       $(".nameReturn").text(nameInput);
       $(".emailReturn").text(emailInput);		
-		alert("begin");
+		
 		//for the answer , We need to calculate the score of 4 languages which 
 		//the user goto,delear 4 vales 
 		var scoreOfJava=0;

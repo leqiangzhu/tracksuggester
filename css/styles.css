@@ -1,10 +1,5 @@
-#template {
- display: none;
-}
-#createdContact{
-	 display: none;
-}
-	
+
+
 }
 .hiddenInfo {
   display: none;
@@ -15,3 +10,13 @@
 	
 }
  
+
+#suggestionOfJava{
+	 display: none;
+}
+#suggestionOfCsharp{
+	 display: none;
+}
+#suggestionOfCss{
+	 display: none;
+}

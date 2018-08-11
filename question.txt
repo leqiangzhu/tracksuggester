@@ -3,10 +3,6 @@
 
 
 
-To work for a large company
-Android Developing
-Content Management
-I want to build a Interactive Webpages
   
 
 
@@ -28,13 +24,13 @@ keen to work for a fast paced agency that builds websites for lots of clients,
 
 Questions
 
-Q1£ºexperience
+Q1Â£Âºexperience
 0				
 1
 2
 3
 
-Q2£º
+Q2Â£Âº
 
  Building interactive web applications. 					RUBY
  I want to be an Android developer					java
@@ -43,7 +39,7 @@ Maintain the security and stability of a huge complex of government websites	php
 
 
 
-Î´íµÄ´òËã
+ÃÂ´ÂÃ­ÂµÃ„Â´Ã²Ã‹Ã£
  most popular with startups and smaller companies who are looking to build their product quickly.
 
 
